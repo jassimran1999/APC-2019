@@ -7,7 +7,7 @@ int main()
 printf("%d",rec(n));
 }
 
-int rec(int x,int i)
+int rec(int x)
 {
     static int v=1;
     if (x<10)
@@ -19,11 +19,9 @@ int rec(int x,int i)
     {
         int c = x%10;
         x=x/10;
-        int i = (i)+(c*v);
+        int k = rec(x);
         v=v*10;
-        printf("%d\n",v);
-        int k = rec(x,i);
-        
+        k=k+(c*v);
         return k;
     }
 }
