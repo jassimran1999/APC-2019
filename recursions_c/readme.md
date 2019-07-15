@@ -1,3 +1,3 @@
-#Recursions in C Language
+# Recursions in C Language
 
-part of apc UCA course(sem V)
+Part of apc UCA course(sem V)
