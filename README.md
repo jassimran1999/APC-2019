@@ -1,2 +1,3 @@
 # APC-2019
-Advanced Programming Concepts in C Language
+Advanced Programming Concepts 
+(all programs practiced in class)
