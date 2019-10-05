@@ -11,7 +11,7 @@ return 0;
 
 void rec(int x, int i)
 {
-if(x<=1)
+if(x<2)
 {
     return;
 }
