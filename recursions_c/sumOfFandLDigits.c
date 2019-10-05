@@ -9,10 +9,11 @@ int main()
 
 int recc(int x,int i,int f)
 {
-
-    if(x<10)
+    if(x<0)
+        return -1;
+    else if(x<=9)
     {
-     return x+i;
+        return x+i;
     }
 
     else
