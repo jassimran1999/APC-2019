@@ -10,7 +10,7 @@ int main()
 int recc(int x,int i,int f)
 {
 
-    if(x<10)
+    if(x<=9)
     {
      return x+i;
     }
