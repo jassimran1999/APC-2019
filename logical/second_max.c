@@ -7,7 +7,7 @@ int main()
     int a[n];
     int b = n;
     //printf("%d",n);
-    for(int ii=0;ii<n;ii++)
+    for(int ii=0;ii<=n-1;ii++)
     {
         int get=0;
         scanf("%d",&get);
